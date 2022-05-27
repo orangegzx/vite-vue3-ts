@@ -7,9 +7,7 @@
     "build": "vue-tsc --noEmit && vite build",
     "preview": "vite preview",
     "lint:init": "eslint --init",
-    "lint": "eslint --ext .js,.vue src",
-    "lint:fix": "eslint src --fix --ext .ts,.tsx",
-    "lint_fix": "eslint 'src/**/*.{ts,js,tsx,jsx}' --fix -o eslint_log.log"
+    "lint": "eslint --ext .js,.ts,.tsx,.vue,.jsx src"
   },
   "dependencies": {
     "dotenv": "^16.0.1",
