@@ -1,3 +1,10 @@
+/*
+ * @Author: gezuxia
+ * @Descripttion: 
+ * @Date: 2022-05-27 16:53:00
+ * @LastEditors: gezuxia
+ * @LastEditTime: 2022-05-29 22:32:39
+ */
 module.exports = {
   root: false,
   env: {
@@ -35,7 +42,8 @@ module.exports = {
     'vue/max-attributes-per-line': ['error', {
       singleline: { max: 4 },
       multiline: { max: 4 }
-    }] // vue template模板元素第一行最多5个属性
+    }], // vue template模板元素第一行最多5个属性
     // 其它的规则可以去eslint查看，根据自己需要进行添加
+    'vue/multi-word-component-names': 'off'
   }
 }
